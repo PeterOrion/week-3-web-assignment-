@@ -1,0 +1,44 @@
+
+/* Universal selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ID selector */
+#main-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class selector */
+.content {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 18px;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+/* Tag selector */
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style an image */
+.styled-image {
+  width: 200px;
+  border: 3px solid #4a90e2;
+  border-radius: 10px;
+  margin-top: 15px;
+}
